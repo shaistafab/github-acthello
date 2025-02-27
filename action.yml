@@ -1,0 +1,13 @@
+name: 'Hellow World'
+description: 'Greet someone and record the time'
+inputs:
+  name: 
+    description: 'Name'
+    required: true
+    default: 'GITHUB-ACTHELLO'
+outputs:
+  greeting:
+    description: 'How we greeted'
+runs:
+  using: 'node20'
+  main: 'index.js'
